@@ -9,11 +9,53 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   </head>
   <body>
-    
-    <!-- CONTENT -->
+
+    <!-- Static navbar -->
+		<nav class="navbar navbar-default navbar-static-top">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Array of arrays permutation generator</a>
+		    </div>
+		    <div id="navbar" class="navbar-collapse collapse"></div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+
+
+		<div class="container">
+
+			<div class="time-controls-container">
+
+
+			</div>
+
+
+
+		</div>
+
+		<div class="container">
+
+			<div class="add-chairs-container">
+
+        <p>Enter your first array (1 per line)</p>
+        <textarea id="firstarray" class="form-control" placeholder="" rows="8"></textarea>
+        <br>
+        <input id="step1" class="button-primary" type="submit" value="Go!">
+
+        <hr>
+
+        <div id="secondArrays">
+
+        </div>
+
+			</div>
+
+		</div><!-- /.container -->
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/create-array.js"></script>
+    <script src="js/jquery.combinations.js"></script>
+
   </body>
 </html>

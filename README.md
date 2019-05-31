@@ -11,4 +11,4 @@ There are 24 combinations of that list.
 
 This simple tool will allow you to enter the first dimension (height, residency, citizenship, eye colour) and then allow you to enter the allowed values for each.
 
-Then it'll generate an array of arrays using [this handy snippet](https://codepen.io/franciskim/pen/eNjrpR), and generate a complete list of permutations using [this other handy snippet](https://github.com/BigAB/jQuery-Combinations-Plugin/).
+Then it'll generate an array using [this handy snippet](https://codepen.io/franciskim/pen/eNjrpR), generate an array of arrays by re-running the array generator over the first dimension, and finally generate a complete list of permutations using [this other handy snippet](https://github.com/BigAB/jQuery-Combinations-Plugin/).

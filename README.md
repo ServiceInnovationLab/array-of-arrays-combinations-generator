@@ -8,7 +8,7 @@ When writing tests there are a bunch of input variables. For example, a piece of
 and
 - their age
 
-There are 16 combinations of that list. Let's say that if they're a resident or citizen and over 18 they get a free boat, and if they're short and a citizen they get a free step to stand on when they can't reach stuff. That means we have 2 openfisca output variables:
+There are 16 combinations of that list (assuming you test for 2 ages). Let's say that if they're a resident or citizen and over 18 they get a free boat, and if they're short and a citizen they get a free step to stand on when they can't reach stuff. That means we have 2 openfisca output variables:
 - free_boat_person_is_eligible
 - free_step_person_is_eligible
 

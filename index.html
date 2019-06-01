@@ -14,7 +14,7 @@
 		<nav class="navbar navbar-default navbar-static-top">
 		  <div class="container">
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">Array of arrays permutation generator</a>
+		      <a class="navbar-brand" href="#">Openfisca test permutation generator</a>
 		    </div>
 		    <div id="navbar" class="navbar-collapse collapse"></div><!--/.nav-collapse -->
 		  </div>
@@ -37,19 +37,32 @@
 			<div class="add-chairs-container">
 
         <div id="firstArray">
-          <p>Enter your first array (1 per line)</p>
-          <textarea id="firstarray" class="form-control" placeholder="" rows="8"></textarea>
-          <br>
-          <button type="button" id="step1" class="btn btn-primary">Create first array</button>
-          <hr>
+          <p>
+            Your input variables (1 per line)
+            <textarea id="firstarray" class="form-control" placeholder="person_is_tall
+person_is_resident
+person_is_citizen
+person_is_retired
+            " rows="8"></textarea>
+            <hr>
+            <label for="date">Simulation date:</label>
+            <input type="text" name="date" id="simulationDate" placeholder="2019-01">
+            <hr>
+            <label for="date">Your output variables:</label>
+            <textarea id="outputs" class="form-control" placeholder="free_boat_person_is_eligible
+free_step_person_is_eligible" rows="8"></textarea>
+            <hr>
+            <button type="button" id="step1" class="btn btn-primary">Create first array</button>
+          </p>
         </div>
         <div id="secondArrays">
+          <p>Enter the options for each of your inout variables (1 per line)</p>
           <main>
           </main>
           <button id="step2" class="btn btn-primary" type="button">Create array of arrays</button>
         </div>
         <div id="finalArray">
-          <p>Your array of arrays:</p>
+          <p>Your openfisca tests:</p>
           <textarea id="arrayOfArrays" class="form-control" placeholder="" rows="16"></textarea>
           <hr>
         </div>

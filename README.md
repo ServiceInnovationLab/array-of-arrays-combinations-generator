@@ -1,4 +1,7 @@
 # Openfisca test generator
+
+Demo: https://tjharrop.github.io/array-of-arrays-combinations-generator/
+
 This will generate all permutations of your input variables for [openfisca](https://www.openfisca.org). It doesn't (yet) work out what the output variables should be. It ma do that in future.
 
 When writing tests there are a bunch of input variables. For example, a piece of sealand legislation might need an input variable to know whether somebody is:
